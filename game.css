@@ -1,0 +1,69 @@
+.audio{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s;
+    width: 160px;
+    text-align: center;
+    color: white;
+    background: rgba(144, 119, 17, 0.4);
+    text-shadow: 0 0 5px black;
+}
+.audio:hover{
+    background-color: green;
+}
+.red{
+    border: 4px solid red;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    width: 160px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    text-shadow: 0 0 5px black;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37vh;
+}
+body{
+    background-image: url(images/mainPageImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rem-players{
+    /* list-style: none; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.child{
+    border: 4px solid black;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    background: rgba(41, 207, 49, 0.4);
+    text-shadow: 0 0 5px black;
+}
+.win{
+    font-size: 6rem;
+    color: green;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vmin;
+}

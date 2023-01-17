@@ -1,0 +1,72 @@
+body{
+    background-image: url(images/backgroundImage.jpg);
+    background-size: 125%;
+    background-repeat: no-repeat;
+}
+.inline{
+    color: #EE8B1A;
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 4.8rem;
+    font-weight: 800;
+    width: 33vw;
+    font-family: 'Poppins';
+    margin-top: -3vh;
+}
+.welcome{
+    color: white;
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 4.8rem;
+    font-weight: 800;
+    width: 33vw;
+    font-family: 'Poppins';
+}
+.content{
+    display: flex;
+    height: fit-content;
+    min-height: 59vh;
+    width: 85vw;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.subheading{
+    color: white;
+    width: 32vw;
+    font-family: 'poppins';
+    font-size: 1.4rem;
+}
+.query{
+    color: white;
+    width: 32vw;
+    font-family: 'poppins';
+    margin-top: 15vh;
+}
+.player-num{
+    width: 31.5vw;
+    height: 4vh;
+}
+.begin-btn{
+    background-color: #34CC84;
+    color: white;
+    border-color: #8D4DC5;
+    margin-top: 5vh;
+    font-size: 29px;
+    margin-bottom: 3vh;
+}
+.next-btn{
+    background-color: #34CC84;
+    color: white;
+    border-color: #8D4DC5;
+    margin-top: 5vh;
+    font-size: 29px;
+}
+.player-name{
+    width: 31.5vw;
+    height: 4vh;
+}
+.hide{
+    visibility: hidden;
+}
